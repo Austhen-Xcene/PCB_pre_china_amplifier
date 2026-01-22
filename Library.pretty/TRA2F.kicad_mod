@@ -1,0 +1,123 @@
+(footprint "TRA2F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "K701"
+		(at 3.72893 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b849f907-1672-4eaf-8267-6cd43c95173d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ADW11"
+		(at 2.220072 -1.6615 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3cc515df-9cee-40d4-9078-e772d4cc234f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "270cbfcb-be80-4820-8e05-d755e79253fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a2f52da-cc02-43fa-84e2-9d3d5e166357")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Campo2" ""
+		(at 281.539996 234.04 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7966bd24-c482-489f-8cb1-288fdb231e74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.3 1.825)
+		(end 6.3 -27.225)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aa92398f-d354-48d9-9e8d-30f72d0cbb03")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.025 -2.775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34eb927d-c4a4-47f4-8f6a-6c5008f0bd19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.8 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6790586-6468-4309-92ba-308c84fb4129")
+	)
+	(pad "3" thru_hole circle
+		(at 3.8 -23.5)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fa8dea1-6d1b-42c5-82fa-19d085688616")
+	)
+	(pad "5" thru_hole circle
+		(at -3.8 -20)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5409f76-8a76-4461-94a8-ac566942f5ce")
+	)
+	(pad "6" thru_hole circle
+		(at -3.8 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffb30c67-03a1-45bc-8fb2-68d233136708")
+	)
+	(embedded_fonts no)
+)
