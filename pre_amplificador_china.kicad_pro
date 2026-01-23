@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerer_pre_v1.1",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
