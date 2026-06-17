@@ -1,0 +1,121 @@
+(footprint "Button"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at 0 -13 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "11d40a53-d9b5-4691-a99f-2488687f71df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 -14.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31521f64-f165-4aea-b269-ed5a225bd381")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c90c198-e5ee-4b40-bc00-363efe6801fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58248929-c7db-4550-90ab-1fee61da07be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.75 -11.5)
+		(end 4.75 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7e1adfcc-d354-433f-8578-d112d8293f47")
+	)
+	(fp_rect
+		(start -4.75 9)
+		(end 4.75 15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "73b7d936-bfd9-4601-a856-740da3e9bc3c")
+	)
+	(fp_rect
+		(start -2 15)
+		(end 2 33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "041418fc-46a0-4f73-a3aa-4095ca0c9ac0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -16 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46038c8c-49e0-4e77-9aa4-87ede6f99733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -9 45)
+		(size 8 3.3)
+		(drill oval 5.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e58f9323-28b6-4926-b5ae-3ef812c33ef5")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 3 45)
+		(size 8 3.3)
+		(drill oval 5.5 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "c20cc9fd-d4c3-4eb2-804b-39f97e58cd93")
+	)
+	(embedded_fonts no)
+)
