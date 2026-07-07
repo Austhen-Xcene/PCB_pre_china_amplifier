@@ -1,0 +1,37 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2026-07-07T13:05:02-03:00*%
+%TF.ProjectId,pre_amplificador_china,7072655f-616d-4706-9c69-66696361646f,3.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2026-07-07 13:05:02*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,1.250000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,3.500000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J5*%
+X96310000Y-114630000D03*
+%TO.C,J6*%
+X119170000Y-114630000D03*
+D11*
+%TO.C,H6*%
+X95650000Y-88400000D03*
+%TO.C,H3*%
+X113450000Y-110350000D03*
+%TO.C,H5*%
+X134200000Y-71050000D03*
+%TO.C,U106*%
+X134310000Y-110570000D03*
+%TO.C,H1*%
+X190950000Y-70250000D03*
+M02*
