@@ -5886,7 +5886,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 21.59 129.54 0)
+		(at 25.4 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5895,7 +5895,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e4700de-8cfe-4b84-a989-d01e3cd4bc89")
 		(property "Reference" "#PWR05"
-			(at 21.59 133.35 0)
+			(at 25.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +5904,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 124.714 0)
+			(at 25.4 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +5912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 129.54 0)
+			(at 25.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +5921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 129.54 0)
+			(at 25.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 129.54 0)
+			(at 25.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,6 +8415,73 @@
 			(project "pre_amplificador_china"
 				(path "/04cab981-4d8f-4660-8a43-e8bf2abd9436/e54f5bce-0739-44d4-aaea-1f6f1b92ae68"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 25.4 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58abd2c3-4210-4945-9c18-fe448daba1e7")
+		(property "Reference" "R8"
+			(at 21.463 147.701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 21.463 149.479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 24.384 148.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301249c5-ebaf-4840-bb5f-24d00fec9b10")
+		)
+		(pin "2"
+			(uuid "72c290fc-f833-4330-9f02-7b460ce465bf")
+		)
+		(instances
+			(project "pre_amplificador_china"
+				(path "/04cab981-4d8f-4660-8a43-e8bf2abd9436/e54f5bce-0739-44d4-aaea-1f6f1b92ae68"
+					(reference "R8")
 					(unit 1)
 				)
 			)
