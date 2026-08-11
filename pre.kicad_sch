@@ -6890,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "3n3"
 			(at 210.82 57.15 90)
 			(effects
 				(font
@@ -6957,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 195.58 68.58 90)
 			(effects
 				(font
@@ -7161,7 +7161,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4k7"
 			(at 78.74 65.024 90)
 			(effects
 				(font
@@ -7302,7 +7302,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "3n3"
 			(at 175.26 54.61 90)
 			(effects
 				(font
@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 175.26 64.77 90)
 			(effects
 				(font
@@ -9120,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4k7"
 			(at 78.74 104.394 90)
 			(effects
 				(font

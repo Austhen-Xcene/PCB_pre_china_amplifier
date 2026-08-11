@@ -38,6 +38,7 @@
       "footprint_values",
       "footprint_references",
       "tracks",
+      "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",

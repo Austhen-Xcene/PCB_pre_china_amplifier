@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(date "2026-07-07")
-		(rev "3.0")
+		(rev "3.1")
 		(company "SHC")
 	)
 	(layers
@@ -1367,7 +1367,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "9ba6d2ec-a033-416a-b551-20d1418c91bd")
@@ -3970,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "3n3"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "2fe00be7-a074-4a75-8ef7-5184f9d5c7c8")
@@ -8405,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "3n3"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "9326f667-4b67-4ef6-83a2-fe3d11cc6ee7")
@@ -8803,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4k7"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "35488e10-7d53-4f71-ab38-ca696c594b00")
@@ -11729,7 +11729,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "463869c5-79fa-44ac-b51d-81c1452b4b9f")
@@ -12906,7 +12906,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4k7"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "6805900a-d6d4-4c97-809a-530427aa01a6")
@@ -15214,7 +15214,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/e54f5bce-0739-44d4-aaea-1f6f1b92ae68/c5459b32-5a12-448a-b4f9-57611e6d1ce7")
+		(path "/e54f5bce-0739-44d4-aaea-1f6f1b92ae68/a7e40c3e-6910-4ff1-8767-c2aa2aabe615")
 		(sheetname "/pre/")
 		(sheetfile "pre.kicad_sch")
 		(attr smd)
